@@ -14,7 +14,7 @@ if arcpy.Exists("Rare_Plant_Points_2022"):
 if arcpy.Exists("Rare_Plant_Points_2023"):
     arcpy.Delete_management("Rare_Plant_Points_2023")
 
-for i in range(0,3):
+for i in range(0,4):
     year_list = ["2020", "2021", "2022", "2023"]
     outGDB = "C:\BoCo_Rare_Plants\Projects\BoCoRarePlantsProject\BoCoRarePlantsProject.gdb"
     outName = "Rare_Plant_Points_" + year_list[i]
